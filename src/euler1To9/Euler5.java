@@ -1,4 +1,4 @@
-package euler1To10;
+package euler1To9;
 
 public class Euler5 {
 	public static int prob5(int upTo) {

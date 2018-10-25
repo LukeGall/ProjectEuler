@@ -1,4 +1,4 @@
-package euler1To10;
+package euler1To9;
 
 import java.util.ArrayList;
 

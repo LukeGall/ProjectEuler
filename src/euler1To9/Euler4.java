@@ -1,4 +1,4 @@
-package euler1To10;
+package euler1To9;
 
 public class Euler4 {
 	public static boolean isPalin(int n) {

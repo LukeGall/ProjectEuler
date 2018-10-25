@@ -1,4 +1,4 @@
-package euler1To10;
+package euler10to19;
 
 public class Euler10 {
 	public static long prob10(int n) {
