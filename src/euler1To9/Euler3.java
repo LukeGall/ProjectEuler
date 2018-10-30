@@ -14,7 +14,7 @@ public class Euler3 {
 		return num;
 	}
 	
-	public static boolean isPrime(long n) {				//Why using string?
+	public static boolean isPrime(long n) {				
 		boolean pr =true;
 		String num=""+n;
 		int sum=0;
