@@ -10,4 +10,5 @@ public class Euler1 {
 		}
 		return sum;
 	}
+	
 }
