@@ -22,17 +22,20 @@ public class Euler12 {
 		System.out.println(triNum);
 	}
 	
+
 	private static int factors(int num) {
-		int factors=0;
-		int sqrt = (int) Math.sqrt(num);
-		for(int i=1;i<sqrt;i++) {
-			if(num % i == 0) factors+=2;
+		int facts=1;
+		int p=2;
+		while(num>1) {
+			int div=1;
+			while(num%p==0) {
+				div++;
+				num=num/p;
+			}
+			facts=facts*div;
+			p++;
 		}
-		if(sqrt*sqrt==num) {
-			factors--;
-		}
-		return factors;
-		
+		return facts;
 	}
 	
 	public static void main(String[] args) {
